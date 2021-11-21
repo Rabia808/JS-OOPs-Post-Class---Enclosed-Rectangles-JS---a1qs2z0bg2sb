@@ -24,8 +24,8 @@ const rec2 = {
 
 function updateStructure(rec1, rec2) {
   if (
-    rec1.top.split("px")[0] <= rec2.top.split("px")[0] &&
-    rec1.left.split("px")[0] <= rec2.left.split("px")[0]
+    rec1?.top.split("px")[0] <= rec2?.top.split("px")[0] &&
+    rec1?.left.split("px")[0] <= rec2?.left.split("px")[0]
   ) {
     // check if rec1 enclose rec2 or not---------------->
     if (
